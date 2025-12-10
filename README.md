@@ -21,6 +21,24 @@ A professional recipe management mobile application built with React Native (Exp
 4. **Add Recipe Screen** - Create new recipes with validated form
 5. **Recipe Detail Screen** - View complete recipe information
 
+## 📸 Screenshots
+
+<div align="center">
+  <img src="screenshots/photo_1_2025-12-11_00-15-12.jpg" alt="Login Screen" width="250"/>
+  <img src="screenshots/photo_2_2025-12-11_00-15-12.jpg" alt="Home Screen" width="250"/>
+  <img src="screenshots/photo_3_2025-12-11_00-15-12.jpg" alt="Add Recipe" width="250"/>
+</div>
+
+<div align="center">
+  <img src="screenshots/photo_4_2025-12-11_00-15-12.jpg" alt="Recipe Details" width="250"/>
+  <img src="screenshots/photo_5_2025-12-11_00-15-12.jpg" alt="Search Screen" width="250"/>
+  <img src="screenshots/photo_6_2025-12-11_00-15-12.jpg" alt="Manage Recipes" width="250"/>
+</div>
+
+<div align="center">
+  <img src="screenshots/photo_7_2025-12-11_00-15-12.jpg" alt="Recipe List" width="250"/>
+</div>
+
 ## 🛠 Tech Stack
 
 - **Frontend**: React Native with Expo SDK 54
