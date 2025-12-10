@@ -1,3 +1,10 @@
+/**
+ * Tab Layout
+ * 
+ * Bottom tab navigation for main app screens
+ * Home, Search, and Manage recipes
+ */
+
 import { Tabs } from 'expo-router';
 import React from 'react';
 
@@ -13,21 +20,44 @@ export default function TabLayout() {
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
-        headerShown: false,
+        headerShown: true,
         tabBarButton: HapticTab,
+        headerStyle: {
+          backgroundColor: '#0ea5e9',
+        },
+        headerTintColor: '#fff',
+        headerTitleStyle: {
+          fontWeight: '600',
+        },
       }}>
       <Tabs.Screen
         name="index"
         options={{
           title: 'Home',
+          headerTitle: 'Recipe Manager',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="search"
+        options={{
+          title: 'Search',
+          headerTitle: 'Search Recipes',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="magnifyingglass" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="manage"
+        options={{
+          title: 'Manage',
+          headerTitle: 'Manage Recipes',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="list.bullet" color={color} />,
         }}
       />
       <Tabs.Screen
         name="explore"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          href: null,
         }}
       />
     </Tabs>

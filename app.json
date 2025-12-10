@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "tp7",
-    "slug": "tp7",
+    "name": "Recipe Manager",
+    "slug": "recipe-manager",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "tp7",
+    "scheme": "recipe-manager",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
